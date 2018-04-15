@@ -1,0 +1,86 @@
+body{
+    font-family: Helvetica;
+    font-size; 22px;
+    background-color: black;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+}
+
+Header{
+    height: 69px;
+    display:Flex;
+    border-bottom: solid 1px Seashell;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    padding-top: 10px;
+    z-index: 5;
+}
+
+.logo_place{
+    display: flex;
+    flex-grow: 1;
+    padding-left: 10px;
+    height: 50px;
+}
+
+header span{
+    text-decoration: underline;
+    margin-left: 15px;
+}
+
+.nav_list{
+    padding-top: 20px;
+    
+}
+
+.main_img_centre{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+.main_image{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 96px;
+    background-image: url(../images/img-mission-background.jpg);
+    height: 700px;
+    background-repeat: no-repeat;
+    margin-bottom: 200px;
+    
+}
+
+span h2 {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    width:1200px;
+    height: 50px;
+    margin: 0;
+    
+}
+
+span h4 {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    width:1200px;
+    height: 50px;
+    margin: 0;
+}
+
+teaofmonth{
+    position:relative;
+    width: 1000px;
+}
+
+.berry, .crate, .donut, .myrtle, .bedford{
+    width: 300px;
+    height: 200px;
+}
