@@ -83,16 +83,63 @@ teaofmonth{
 .berry, .crate, .donut, .myrtle, .bedford{
     width: 300px;
     height: 200px;
+    padding-left: 30px;
 }
 
-.image_centre{
+.image_3_centre{
     margin-left:auto;
     margin-right: auto;
     width: 50%;
 }
-.image_set{
+.image_3_set{
     width: 1000px;
     display:flex;
     flex-wrap: wrap;
-    align-content: space-around;
+    justify-content: space-between
+}
+
+.image_2_centre{
+    margin-left:auto;
+    margin-right: auto;
+    width: 50%;
+}
+.image_2_set{
+    width: 1000px;
+    display:flex;
+    justify-content: center;
+}
+
+.location_centre{
+    margin-left: auto;
+    margin-right: auto;
+    width: 66%;
+}
+
+.locs{
+    Padding: 30px;
+}
+
+.location_image{
+    background-image: url(../images/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 1200px;
+}
+
+.location_tiles{
+    display: flex;
+    justify-content: center;
+}
+
+.loc_one, .loc_two, .loc_three{
+    background-color: black;
+    opacity: 1;
+    width: 300px;
+    height: 200px;
+    margin: 40px;
+}
+
+footer{
+    text-align: left;
+    padding-left: 20px;
 }
